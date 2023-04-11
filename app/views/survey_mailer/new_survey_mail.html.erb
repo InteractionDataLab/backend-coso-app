@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>Hello <%= @params[:name] %>!</p>
+    <p>
+      A new survey is available in the <%= @params[:program_name] %> program.
+    </p>
+    <p>
+      Click <strong><a href="<%= @params[:link] %>">here</a></strong> to take the survey.
+    </p>
+    <p>
+      Thank you for your participation,<br>
+      The organizing team
+    </p>
+  </body>
+</html>
